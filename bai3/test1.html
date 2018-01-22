@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test 1</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var name_1 = "Nguyen Van A";
+		var name_2 = "Nguyen Van B";
+		var name_3 = "Nguyen Van C";
+
+		document.write("Xin chao " + name_1 + "<br>");
+
+		function xinchao(user) {
+				document.write("Xin chao " +  user + "<br>");
+		}
+
+		function fullname(lastname, firstname) {
+			var fullname = lastname + " " + firstname;
+			return fullname;
+		}
+		xinchao(name_1);
+		document.write(fullname("Trinh", "Danh"));
+	</script>
+</body>
+</html>
